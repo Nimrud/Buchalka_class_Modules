@@ -1,4 +1,4 @@
-package sample.model;
+package jaczewski.common;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
