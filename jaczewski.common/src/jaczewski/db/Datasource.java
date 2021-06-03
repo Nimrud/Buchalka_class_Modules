@@ -1,4 +1,7 @@
-package sample.model;
+package jaczewski.db;
+
+import jaczewski.common.Album;
+import jaczewski.common.Artist;
 
 import java.sql.*;
 import java.util.ArrayList;
