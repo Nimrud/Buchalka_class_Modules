@@ -17,6 +17,10 @@ import javafx.stage.Stage;
 // (bez tego pliku nie zadziałają importy pakietów javafx, java.sql itd.)
 // (importy napisanych przez nas klas aktualizujemy przez wykasowanie - automatycznie się zrobią)
 // File -> Project structure -> Modules -> dodajemy JavaFX i sterownik JDBC do MODUŁU
+// src -> new -> module-info.java (dla każdego modułu)
+// dodajemy odpowiednie requires, opens, exports
+// dodajemy dependencies do każdego modułu:
+// File -> Project structure -> [wybieramy moduł] -> + -> Module dependency
 
 
 public class Main extends Application {
