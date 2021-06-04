@@ -1,9 +1,6 @@
-module modules.jaczewski.common {
-    requires javafx.fxml;
-    requires javafx.controls;
-    requires java.sql;
+module jaczewski.common {
+    requires javafx.base;
 
     opens jaczewski.common;
-    opens jaczewski.ui;
-    opens jaczewski.db;
+    exports jaczewski.common;
 }
