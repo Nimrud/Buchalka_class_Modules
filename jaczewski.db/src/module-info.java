@@ -1,7 +1,7 @@
 module jaczewski.db {
     requires java.sql;
     requires sqlite.jdbc;
-    requires jaczewski.common;
+    requires transitive jaczewski.common;
 
     exports jaczewski.db;
 }
