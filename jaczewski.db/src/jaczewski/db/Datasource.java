@@ -222,9 +222,9 @@ public class Datasource {
             List<Artist> artists = new ArrayList<>();
             while (results.next()) {
                 try {
-                    Thread.sleep(20);
+                    Thread.sleep(10);
                 } catch (InterruptedException e) {
-                    System.out.println("Interuppted: " + e.getMessage());
+                    System.out.println("Interrupted: " + e.getMessage());
                 }
                 Artist artist = new Artist();
                 artist.setId(results.getInt(INDEX_ARTIST_ID));
